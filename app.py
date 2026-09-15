@@ -137,9 +137,7 @@ with left:
         <div class="hero-note">Berbasis LLM, Function Calling, dan basis pengetahuan dokumen Prodi.</div>
     </div>
     """, unsafe_allow_html=True)
-with right:
-    if LOGO_PATH.exists():
-        st.image(str(LOGO_PATH), width=108)
+
 
 with st.sidebar:
     if LOGO_PATH.exists():
